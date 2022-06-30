@@ -1,0 +1,24 @@
+[
+  {
+    "id": 0,
+    "host": "*",
+    "path": "**",
+    "method": "*",
+    "authorized_roles": [
+      "*"
+    ],
+    "forbidden_roles": [
+      "black_user"
+    ],
+    "allow_anyone": false
+  },
+  {
+    "id":1,
+    "host": "domain.com",
+    "path": "/article",
+    "method": "{DELETE,POST,PUT}",
+    "authorized_roles": ["editor"],
+    "forbidden_roles": [],
+    "allow_anyone": false
+  }
+]
