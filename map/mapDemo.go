@@ -10,4 +10,5 @@ func main() {
 	if ok {
 		fmt.Printf(v)
 	}
+	fmt.Println(len(map1))
 }

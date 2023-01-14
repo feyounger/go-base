@@ -8,7 +8,8 @@ require (
 	github.com/gin-gonic/gin v1.7.7
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/go-sql-driver/mysql v1.6.0
-	github.com/joomcode/errorx v1.1.0
+	github.com/patrickmn/go-cache v2.1.0+incompatible
+	golang.org/x/sync v0.1.0
 	gopkg.in/go-playground/validator.v9 v9.31.0
 )
 
