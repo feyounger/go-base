@@ -22,7 +22,10 @@ func (p *Gopher) debug() {
 }
 
 func main() {
-	var c coder = &Gopher{"Go"}
-	c.code()
-	c.debug()
+	//var c coder = &Gopher{"Go"}
+	//c.code()
+	//c.debug()
+
+	var ans float64 = 15 + 25 + 5.2
+	fmt.Println(ans)
 }
